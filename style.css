@@ -1,0 +1,99 @@
+/* Here goes your CSS */
+body {
+  background: #222831;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #393E46;
+  font-size: 18px;
+  line-height: 1.8em;
+}
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  color: #00ADB5;
+  font-size: 32px;
+}
+
+h2 {
+  color: #00ADB5;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h4 {
+  color: ##222831;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  color: #393E46;
+  font-size: 18px;
+}
+
+a {
+  color: #393E46;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00ADB5;
+}
+
+.container {
+  width: 860px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+#img-profile {
+    width: 300px;
+    height: 300px;
+    border: 5px solid #222831;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-movies {
+    width: 165px;
+    height: 240px;
+    border: 5px solid #222831;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul, menu, dir {
+    display: inline;
+    list-style-type: none;
+}
+
+.clear { clear: both;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
